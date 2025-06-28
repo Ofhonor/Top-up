@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 15px 0;
+}
+
+header h1 {
+  color: #00d8ff;
+  margin: 0;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(to right, #00d8ff, #004466);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin: 0 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.price-list {
+  padding: 50px 20px;
+  background: #121212;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #00d8ff;
+}
+
+.form-section {
+  padding: 50px 20px;
+  background: #0a0a0a;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #00d8ff;
+  color: black;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 6px;
+  display: none;
+  border: 1px solid #00d8ff;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
